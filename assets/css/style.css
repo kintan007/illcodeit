@@ -1050,7 +1050,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+.footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1062,11 +1062,11 @@ section {
   background: #040b14;
 }
 
-#footer .copyright {
+.footer-copyright {
   text-align: center;
 }
 
-#footer .credits {
+.footer-credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
@@ -1074,7 +1074,7 @@ section {
 }
 
 @media (max-width: 1199px) {
-  #footer {
+  footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
